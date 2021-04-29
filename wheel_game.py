@@ -13,8 +13,9 @@
 word = "GOOGLE"
 
 #display the number of letters in word
-mystery_word = ' _ ' * len(word)
-print(mystery_word)
+def show_mystery_word(word):
+    return ' _ ' * len(word)
+print(show_mystery_word(word))
 
 
 # def show_word(word):
